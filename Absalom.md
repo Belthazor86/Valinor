@@ -1,24 +1,28 @@
-# **Absalom: Emulation Made Portable**
+# Absalom: Emulation Made Portable
 
-Absalom is a portable emulator and ROM launcher that is designed to launch ROMs with compatible emulators.. 
+**Absalom** is a lightweight, portable ROM and emulator manager designed to launch games with compatible emulators seamlessly without requiring installation.
 
-**Key Features**
+---
 
-+ 100% Portable: Runs directly without installation perfect for USB drives.
-+ Emulators: Add any emulators in the emulators folder
-+ ROMS: Add ROMS in respective folders
-+ Renders: Add renders in respective folder to have a manual sliodeshow 
+## Key Features
 
+* **100% Portable:** Runs directly without installation—perfect for USB drives.
+* **Custom Emulators:** Easily add your preferred emulators to the `emulators/` directory.
+* **Organized ROM Management:** Store and sort ROMs inside designated folders.
+* **Manual Visual Slideshow:** Add game renders/artwork to display visual media while browsing.
 
-**Instructions**
+---
 
-1. Add emulators and ROMS in respective folders .
-2. To save space ROMS should be in zip format expect the ones below
-3. 3DS and Switch must be in their original format
-4. PSP. PS2, PS3 and GameCube must be in iso format
-5. Select game and emulator form drop down menu and then assign
-6. Select only the emulator and assign   
+## Instructions
 
+1. Add your emulators and ROMs into their respective folders.
+2. To save disk space, ROMs should be compressed in `.zip` format, **except** for the consoles listed below:
+   * **3DS & Nintendo Switch:** Must remain in their original formats (e.g., `.3ds`, `.xci`, `.nsp`).
+   * **PSP, PS2, PS3 & GameCube:** Must be in `.iso` format.
+3. Select a game and an emulator from the drop-down menu, then click **Assign**.
+4. To set a default fallback, select only the emulator and click **Assign**. 
+
+---
 
 ```mermaid
 graph TD
@@ -44,7 +48,7 @@ graph TD
 
 ```
 
-
+---
 
 > 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
 > 
