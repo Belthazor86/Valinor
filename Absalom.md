@@ -1,4 +1,4 @@
-# **Absalom: Makes Emulation Portable**
+# **Absalom: Emulation Made Portable**
 
 Absalom is a portable emulator and ROM launcher that is designed to launch ROMs with compatible emulators.. 
 
