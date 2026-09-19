@@ -1,34 +1,56 @@
-# **Mythodian (Basilisk + Elysium)**
+# **Absalom: Makes Emulation Portable**
 
-## **Elysium: Web Platform**
+Absalom is a portable emulator and ROM launcher that is designed to launch ROMs with compatible emulators.. 
 
-Elysium is a plug-and-play web app platform that allows users to integrate, organize, and interact with your favorite web apps and content from a single unified dashboard.
+**Key Features**
 
-### **Key Features**
-
-* **Centralized Hub:** Access books, comics, music, podcasts, games, and PDFs in one place.
-* **Flexible Storage:** Load content directly from local storage, external drives, or cloud services like Google Drive and Box.
-* **Fully Customizable:** Easily add your own web apps and create tailored categories.
-
-## **Basilisk: Portable Gaming Browser**
-
-Basilisk is a portable gaming browser specifically optimized for the Elysium web platform.
-
-### **Key Features**
-
-* **Gaming Optimized:** Fine-tuned for smooth playback of Flash and HTML5 games.
-* **100% Portable:** Runs directly without installation perfect for USB drives.
-* **Client/Server Architecture:** Built with client and server functionality.
++ 100% Portable: Runs directly without installation perfect for USB drives.
++ Emulators: Add any emulators in the emulators folder
++ ROMS: Add ROMS in respective folders
++ Renders: Add renders in respective folder to have a manual sliodeshow 
 
 
-[Home](https://github.com/Belthazor86/Valinor) || [Download](https://github.com/Belthazor86/Valinor/releases/tag/Website)
+**Instructions**
+
+1. Add emulators and ROMS in respective folders .
+2. To save space ROMS should be in zip format expect the ones below
+3. 3DS and Switch must be in their original format
+4. PSP. PS2, PS3 and GameCube must be in iso format
+5. Select game and emulator form drop down menu and then assign
+6. Select only the emulator and assign   
 
 
-> 🚀 **Continuous improvement :** An ongoing effort to enhance Mythodian.
+```mermaid
+graph TD
+    Absalom["Absalom/"] --> folder1["emulators/"]
+
+    Absalom --> folder2["roms/"]
+
+    Absalom --> folder3["renders/"]
+
+    folder1 --> file1["GBA/"]
+    folder1 --> file2["NDS/"]
+    folder1 --> file3["PSP/"]
+
+
+    folder2 --> file4["DeSmuME/"]
+    folder2 --> file5["Dolphin/"]
+    folder2 --> file6["DuckStation/"]
+
+
+    folder3 --> file7["Image1.jpg"]
+    folder3 --> file8["Image2.jpg"]
+    folder3 --> file9["Image3.jpg"]
+
+```
+
+
+
+> 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
 > 
-> 📝 **Usage:** Mythodian is for personal use only.
+> 📝 **Usage:** Absalom is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Mythodian please reach out politely in GitHub Discussions
+> 🆘 **Support:** If you have any issues with Balrog please reach out politely in GitHub Discussions
 
 
 
