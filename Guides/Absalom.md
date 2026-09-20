@@ -1,4 +1,4 @@
-# Absalom: Emulation Made Portable
+# **Absalom: Emulation Made Portable**
 
 **Absalom** is a lightweight, portable ROM and emulator manager designed to launch games with compatible emulators seamlessly without requiring installation.
 
