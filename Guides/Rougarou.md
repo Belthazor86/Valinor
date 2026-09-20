@@ -23,8 +23,6 @@ Rougarou is a lightweight, portable application launcher designed to organize, a
 graph TD
     Rougarou["Rougarou/"] --> folder1["softwares/"]
 
-
-
     folder1 --> file1["Audio/"]
     folder1 --> file2["Readers/"]
     folder1 --> file3["Utilities/"]
