@@ -43,7 +43,7 @@ graph TD
 **Project Guidelines**
 
 
-> 🚀 **Continuous improvement :** An ongoing effort to enhance the Symbiote.
+> 🚀 **Continuous improvement :** An ongoing effort to enhance Symbiote.
 > 
 > 📝 **Usage:** Symbiote is for personal use only.
 >
