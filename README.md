@@ -5,8 +5,8 @@ Valinor is a centralized hub for discovering and managing portable gaming applic
 + **Mythodian:** An integration of Elysium a plug-and-play web platform and Basilisk a portable gaming browser. [Guide](https://github.com/Belthazor86/Valinor/blob/main/Mythodian.md)||[Download](https://github.com/Belthazor86/Valinor/releases/tag/Website)
 + **Symbiote:** A portable game launcher for organizing non-Steam games, emulators, and gaming tools, complete with custom cover art support for every title. [Guide](https://github.com/Belthazor86/Valinor/blob/main/Symbiote.md)||[Download](https://github.com/Belthazor86/Valinor/releases/tag/Gaming)
 + **Balrog:** A lightweight, portable Flash and HTML player designed to easily scan, load, and play your favorite games locally. [Guide](https://github.com/Belthazor86/Valinor/blob/main/Balrog.md)||[Download](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
-+ **Absalom** A portable emulator launcher designed to easily launch retro ROMs with compatible emulators. [Guide]()||[Download]()
-+ **Rougarou** A lightweight launcher for executing portable software and developer tools. [Guide]()||[Download]()
++ **Absalom** A portable emulator launcher designed to easily launch retro ROMs with compatible emulators. [Guide](https://github.com/Belthazor86/Valinor/blob/main/Absalom.md)||[Download](https://github.com/Belthazor86/Valinor/releases#release-Emulators)
++ **Rougarou** A lightweight launcher for executing portable software and developer tools. [Guide](https://github.com/Belthazor86/Valinor/blob/main/Rougarou.md)||[Download](https://github.com/Belthazor86/Valinor/releases#release-Software)
 
 
 
