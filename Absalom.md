@@ -47,6 +47,7 @@ graph TD
     folder3 --> file9["Image3.jpg"]
 
 ```
+[Download](https://github.com/Belthazor86/Valinor/releases#release-Emulators)
 
 ---
 
