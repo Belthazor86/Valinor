@@ -15,11 +15,10 @@ Balrog is a portable flash and HTML 5 player that is optimized to play swf and H
 
 **Instructions**
 
-1. Download [Balrog](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
-2. Add flash and HTML 5 games to their respective folders.
-3. Scan flash or HTML 5 to display the games.
-4. Load flash or HTML 5 games from cloud storage or internal/external storage.
-5. Play games with different versions of Adobe Flash Player and Macromedia Projectors 
+1. Add flash and HTML 5 games to their respective folders.
+2. Scan flash or HTML 5 to display the games.
+3. Load flash or HTML 5 games from cloud storage or internal/external storage.
+4. Play games with different versions of Adobe Flash Player and Macromedia Projectors 
  
 ---
 
@@ -48,6 +47,13 @@ graph TD
 
 
 ```
+
+
+
+[Download](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
+
+
+
 ---
 
 > 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
