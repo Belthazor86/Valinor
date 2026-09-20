@@ -270,13 +270,19 @@ body.dark-mode #myNav {
 </div>
 
 
-<script>
+<script type="module">
+import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+
+mermaid.initialize({ startOnLoad: false });
+
 let slideIndex = 1;
 showSlides(slideIndex);
+
 /* Move forward/backward */
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+
 /* Show specific slide */
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -299,109 +305,106 @@ function showSlides(n) {
   /* Show current slide */
   slides[slideIndex - 1].style.display = "block";
 }
-</script>
 
-<script>
 async function navigateToIframe(page) {
-    const content = document.getElementById('contentFrame');
+  const content = document.getElementById("contentFrame");
 
-    content.innerHTML = "Loading...";
-    openNav();
+  content.innerHTML = "Loading...";
+  openNav();
 
-    try {
-        const response = await fetch(page);
-        if (!response.ok) {
-            throw new Error(`Failed to load ${page}`);
-        }
-
-        const markdown = await response.text();
-        content.innerHTML = marked.parse(markdown);
-
-        const mermaidBlocks = content.querySelectorAll("code.language-mermaid");
-
-        mermaidBlocks.forEach((block) => {
-            const pre = block.parentElement;
-            const graphDefinition = block.textContent;
-
-            const div = document.createElement("div");
-            div.className = "mermaid";
-            div.textContent = graphDefinition;
-
-            pre.replaceWith(div);
-        });
-
-        if (content.querySelector(".mermaid")) {
-            mermaid.init(undefined, content.querySelectorAll(".mermaid"));
-        }
-
-    } catch (error) {
-        console.error(error);
-        content.innerHTML = `<p style="color:red;">Could not load ${page}</p>`;
+  try {
+    const response = await fetch(page);
+    if (!response.ok) {
+      throw new Error(`Failed to load ${page}`);
     }
+
+    const markdown = await response.text();
+    content.innerHTML = marked.parse(markdown);
+
+    const mermaidBlocks = content.querySelectorAll("pre code.language-mermaid");
+
+    for (const block of mermaidBlocks) {
+      const code = block.textContent.trim();
+      const id = "mermaid-" + Math.random().toString(36).slice(2);
+      const parent = block.parentElement;
+
+      try {
+        const { svg } = await mermaid.render(id, code);
+        const div = document.createElement("div");
+        div.innerHTML = svg;
+        parent.replaceWith(div);
+      } catch (error) {
+        console.error("Mermaid render error:", error);
+      }
+    }
+  } catch (error) {
+    console.error(error);
+    content.innerHTML = `<p style="color:red;">Could not load ${page}</p>`;
+  }
 }
 
 function navigateTo(page) {
-    window.location.href = page + '.md';
+  window.location.href = page + ".md";
 }
 
 function openNav() {
-    document.getElementById("myNav").style.height = "100%";
+  document.getElementById("myNav").style.height = "100%";
 
-    document.querySelector(".github-logo").style.display = "none";
-    document.getElementById("theme-toggle").style.display = "none";
-    document.querySelector(".slide-navigation").style.display = "none";
+  document.querySelector(".github-logo").style.display = "none";
+  document.getElementById("theme-toggle").style.display = "none";
+  document.querySelector(".slide-navigation").style.display = "none";
 }
 
 function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
+  document.getElementById("myNav").style.height = "0%";
 
-    document.querySelector(".github-logo").style.display = "inline-block";
-    document.getElementById("theme-toggle").style.display = "block";
-    document.querySelector(".slide-navigation").style.display = "flex";
+  document.querySelector(".github-logo").style.display = "inline-block";
+  document.getElementById("theme-toggle").style.display = "block";
+  document.querySelector(".slide-navigation").style.display = "flex";
 }
-</script>
 
-<script>
-  const themeToggle = document.getElementById("theme-toggle");
-  // Load the saved theme
-  const savedTheme = localStorage.getItem("theme");
+const themeToggle = document.getElementById("theme-toggle");
+/* Load the saved theme */
+const savedTheme = localStorage.getItem("theme");
 
-  if (savedTheme === "dark") {
-    document.body.classList.add("dark-mode");
+if (savedTheme === "dark") {
+  document.body.classList.add("dark-mode");
+  themeToggle.textContent = "☀️";
+  themeToggle.setAttribute("aria-label", "Switch to light mode");
+} else {
+  document.body.classList.remove("dark-mode");
+  themeToggle.textContent = "🌙";
+  themeToggle.setAttribute("aria-label", "Switch to dark mode");
+}
+
+/* Toggle and save the theme */
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
     themeToggle.textContent = "☀️";
     themeToggle.setAttribute("aria-label", "Switch to light mode");
+
+    /* Save dark mode */
+    localStorage.setItem("theme", "dark");
   } else {
-    document.body.classList.remove("dark-mode");
     themeToggle.textContent = "🌙";
     themeToggle.setAttribute("aria-label", "Switch to dark mode");
+
+    /* Save light mode */
+    localStorage.setItem("theme", "light");
   }
+});
 
-  // Toggle and save the theme
-  themeToggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
-
-    if (document.body.classList.contains("dark-mode")) {
-      themeToggle.textContent = "☀️";
-      themeToggle.setAttribute("aria-label", "Switch to light mode");
-
-      // Save dark mode
-      localStorage.setItem("theme", "dark");
-    } else {
-      themeToggle.textContent = "🌙";
-      themeToggle.setAttribute("aria-label", "Switch to dark mode");
-
-      // Save light mode
-      localStorage.setItem("theme", "light");
-    }
-  });
+window.plusSlides = plusSlides;
+window.currentSlide = currentSlide;
+window.navigateToIframe = navigateToIframe;
+window.navigateTo = navigateTo;
+window.openNav = openNav;
+window.closeNav = closeNav;
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-
-<script>
-  mermaid.initialize({ startOnLoad: false });
-</script>
 
 
 </body>
