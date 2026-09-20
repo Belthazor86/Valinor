@@ -2,12 +2,16 @@
 
 Symbiote is a portable game launcher where gamers can organize their non-Steam games, emulators, and gaming tools. 
 
+---
+
 **Key Features**
 
 + 100% Portable: Runs directly without installation perfect for USB drives.
 + Custom Art: Gamers can add their own customer posters for every item
 + Gamepad Support: Navigate the launcher using the Keyboard or Gamepad
 + Customize: Change the theme of the launcher in the setting folder.
+
+---
 
 **Instructions**
 
@@ -16,6 +20,7 @@ Symbiote is a portable game launcher where gamers can organize their non-Steam g
 3. Ensure that the game folder and cover art have the same title
 4. Change background an font in settings folder (optional)
 
+---
 
 ```mermaid
 graph TD
@@ -32,10 +37,12 @@ graph TD
 
 ```
 
+---
+
+[Download](https://github.com/Belthazor86/Valinor/releases/tag/Gaming)
 
 
-
-[Home](https://github.com/Belthazor86/Valinor) || [Download](https://github.com/Belthazor86/Valinor/releases/tag/Gaming)
+---
 
 > 🚀 **Continuous improvement :** An ongoing effort to enhance the Symbiote.
 > 
