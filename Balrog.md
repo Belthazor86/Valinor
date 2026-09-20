@@ -48,7 +48,7 @@ graph TD
 
 ```
 
-
+---
 
 [Download](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
 
