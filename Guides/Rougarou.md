@@ -24,8 +24,10 @@ graph TD
     Rougarou["Rougarou/"] --> folder1["softwares/"]
 
     folder1 --> file1["Audio/"]
-    folder1 --> file2["Readers/"]
-    folder1 --> file3["Utilities/"]
+    folder1 --> file2["Gaming/"]
+    folder1 --> file3["Readers/"]
+    folder1 --> file4["Utilities/"]
+    folder1 --> file5["Videos/"]
 
 ```
 
