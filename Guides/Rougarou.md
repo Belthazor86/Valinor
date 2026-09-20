@@ -1,6 +1,6 @@
-# Rougarou: Archive & Launch Portable Apps
+# **Rougarou: Archive & Launch Portable Apps**
 
-**Rougarou** is a lightweight, portable application launcher designed to organize, archive, and run standalone tools seamlessly without requiring installation.
+Rougarou is a lightweight, portable application launcher designed to organize, archive, and run standalone tools seamlessly without requiring installation.
 
 ---
 
