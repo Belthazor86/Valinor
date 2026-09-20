@@ -2,7 +2,7 @@
 
 ---
 
-## **Elysium: Web Platform**
+# **Elysium: Web Platform**
 
 Elysium is a plug-and-play web app platform that allows users to integrate, organize, and interact with your favorite web apps and content from a single unified dashboard.
 
@@ -16,7 +16,7 @@ Elysium is a plug-and-play web app platform that allows users to integrate, orga
 
 ---
 
-## **Basilisk: Portable Gaming Browser**
+# **Basilisk: Portable Gaming Browser**
 
 Basilisk is a portable gaming browser specifically optimized for the Elysium web platform.
 
