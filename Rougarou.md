@@ -35,6 +35,10 @@ graph TD
 
 ---
 
+[Download](https://github.com/Belthazor86/Valinor/releases#release-Software)
+
+---
+
 > 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
 > 
 > 📝 **Usage:** Rougarou is for personal use only.
