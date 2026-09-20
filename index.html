@@ -316,6 +316,24 @@ async function navigateToIframe(page) {
 
         const markdown = await response.text();
         content.innerHTML = marked.parse(markdown);
+
+        const mermaidBlocks = content.querySelectorAll("code.language-mermaid");
+
+        mermaidBlocks.forEach((block) => {
+            const pre = block.parentElement;
+            const graphDefinition = block.textContent;
+
+            const div = document.createElement("div");
+            div.className = "mermaid";
+            div.textContent = graphDefinition;
+
+            pre.replaceWith(div);
+        });
+
+        if (content.querySelector(".mermaid")) {
+            mermaid.init(undefined, content.querySelectorAll(".mermaid"));
+        }
+
     } catch (error) {
         console.error(error);
         content.innerHTML = `<p style="color:red;">Could not load ${page}</p>`;
@@ -342,7 +360,6 @@ function closeNav() {
     document.querySelector(".slide-navigation").style.display = "flex";
 }
 </script>
-
 
 <script>
   const themeToggle = document.getElementById("theme-toggle");
@@ -380,7 +397,11 @@ function closeNav() {
 </script>
 
 
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 
+<script>
+  mermaid.initialize({ startOnLoad: false });
+</script>
 
 
 </body>
