@@ -29,8 +29,6 @@ graph TD
     folder1 --> file2["Readers/"]
     folder1 --> file3["Utilities/"]
 
-
-
 ```
 
 ---
