@@ -2,11 +2,15 @@
 
 Balrog is a portable flash and HTML 5 player that is optimized to play swf and HTML 5 games. 
 
+---
+
 **Key Features**
 
 + 100% Portable: Runs directly without installation perfect for USB drives.
 + Games: Add flash and HTML 5 games in respective folders
 
+
+---
 
 **Instructions**
 
@@ -14,6 +18,8 @@ Balrog is a portable flash and HTML 5 player that is optimized to play swf and H
 2. Scan flash or HTML 5 to display the games
 3. Load flash or HTML 5 games from cloud storage or internal/external storage.  
 
+
+---
 
 ```mermaid
 graph TD
@@ -35,7 +41,9 @@ graph TD
 
 ```
 
+[Download](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
 
+---
 
 > 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
 > 
