@@ -4,7 +4,7 @@
 
 ---
 
-## Key Features
+**Key Features**
 
 * **100% Portable:** Runs directly without installation—perfect for USB drives.
 * **Custom Emulators:** Easily add your preferred emulators to the `emulators/` directory.
@@ -13,7 +13,7 @@
 
 ---
 
-## Instructions
+**Instructions**
 
 1. Add your emulators and ROMs into their respective folders.
 2. To save disk space, ROMs should be compressed in `.zip` format, **except** for the consoles listed below:
