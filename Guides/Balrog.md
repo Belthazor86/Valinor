@@ -50,11 +50,7 @@ graph TD
 
 ---
 
-[Download](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
-
-
-
----
+**Project Guidelines**
 
 > 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
 > 
@@ -64,6 +60,11 @@ graph TD
 
 
 
+
+<p align="center">
+  <a href="https://github.com/Belthazor86/Valinor/releases/tag/Flash">⬇️ Download</a>
+  <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
+</p>
 
 
 
