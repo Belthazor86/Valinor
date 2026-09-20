@@ -1,4 +1,4 @@
-# **Symbiote: The Portable Gaming Launcher**
+# **Symbiote: A unified launcher for games, emulators, and tools**
 
 Symbiote is a portable game launcher where gamers can organize their non-Steam games, emulators, and gaming tools. 
 
