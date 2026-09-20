@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: Valinor;
+  src: url("../Fonts/Orbitron-VariableFont_wght.ttf");
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif; /* Tech-themed font */
+  color: #ECEFF1;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #010101;
+}
+
+a {text-decoration: none;}
+
+/* Logo */
+.logo {
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo img {
+  display: inline-block;
+  width: 15%;
+  max-width: 500px;
+  min-width: 100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Headings */
+h2 {
+  font-family: "Valinor";
+  text-align: center;
+  font-size: clamp(32px, 6vw, 60px);
+  margin: 0 0 1rem 0;
+}
+
+/* Main container grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  justify-items: center;
+  align-items: start;
+  margin-bottom: 80px;
+  padding-top: 80px;
+  width: 90%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  h2 {
+    font-size: clamp(28px, 7vw, 48px);
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 50%;
+    max-width: none;
+    min-width: unset;
+  }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Optional: Add some styles for the iframe */
+#contentFrame {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  position: relative; /* Changed from absolute to relative */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+  /* Navigation */
+ .video-slider-btn {
+    border: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    z-index: 99999;
+    opacity: .7;
+    transition: all 350ms ease-in-out;
+  }
+	
+ .video-slider-btn:hover {
+    opacity: 1;
+    transition: all 350ms ease-in-out;
+  }
+	
+ .video-slider-btn.left-side {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+  }
+	
+ .video-slider-btn.right-side {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

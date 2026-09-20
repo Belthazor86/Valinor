@@ -1,0 +1,330 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="theme-color" content="whitesmoke">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="icon" href="Logos/1.png" type="image/png">
+<link rel="apple-touch-icon" href="Logos/2.png">
+<link href="CSS/w3.css" rel="stylesheet" type="text/css" />
+<link href="CSS/fonts.css" rel="stylesheet" type="text/css" />
+<link href="CSS/style.css" rel="stylesheet" type="text/css" />
+<link href="CSS/theme.css" rel="stylesheet" type="text/css" />
+<link href="CSS/scroll.css" rel="stylesheet" type="text/css" />
+<link href="CSS/overlay.css" rel="stylesheet" type="text/css" />
+<title>Valinor</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {margin: 0;}
+
+.mySlides {
+  display: none;
+  height: 100vh;
+  position: relative;
+}
+
+img {vertical-align: middle;}
+
+.slide-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-title {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.options {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.option {
+  cursor: pointer;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: clamp(24px, 6vw, 30px);
+  font-weight: bold;
+  margin-top: -100px;
+}
+
+.slideshow-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+}
+
+.slide-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+  margin-top: -100px;
+  z-index: 20;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  padding: 12px 24px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  user-select: none;
+  transition: 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prev:hover,
+.next:hover {background-color: #000;}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slide-title {
+    padding-top: 25px;
+  }
+  .options {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .prev,
+  .next {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
+.github-logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    display: inline-block;
+    z-index: 99999;
+    pointer-events: auto;
+}
+
+.github-logo img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+    pointer-events: auto;
+}
+
+.github-logo img:hover {transform: scale(1.8);}
+</style>
+
+</head>
+
+<body>
+
+
+
+<a href="https://github.com/Belthazor86/Valinor" target="_blank" class="github-logo">
+<img class="demo w3-opacity w3-hover-opacity-off" src="Logos/3.jpg" alt="GitHub"></a>
+
+
+<button id="theme-toggle" aria-label="Toggle dark mode">
+  🌙
+</button>
+
+
+<div id="myNav" class="overlay">
+<iframe id="contentFrame" src="" frameborder="0" scrolling="auto"></iframe>	
+<button class="video-slider-btn closebtn" onclick="closeNav()">(🗙)</button>
+</div>
+
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <h2 class="slide-title">Valinor</h2>
+      <div class="logo">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/0.png" alt="Company Logo" width="10%">';
+      </div>
+      <div class="options">
+        <a class="option demo w3-opacity w3-hover-opacity-off"
+           onclick="navigateToIframe('Mythodian.md'); openNav();">
+          Mythodian
+        </a>
+        <a class="option demo w3-opacity w3-hover-opacity-off"
+           onclick="navigateToIframe('Symbiote.md'); openNav();">
+          Symbiote
+        </a>
+        <a class="option demo w3-opacity w3-hover-opacity-off"
+           onclick="navigateToIframe('Balrog.md'); openNav();">
+          Balrog
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="slide-content">
+      <h2 class="slide-title">Valinor</h2>
+      <div class="logo">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/0.png" alt="Company Logo" width="10%">';
+      </div>
+      <div class="options">
+        <a class="option demo w3-opacity w3-hover-opacity-off"
+           onclick="navigateToIframe('Absalom.md'); openNav();">
+          Absalom
+        </a>
+        <a class="option demo w3-opacity w3-hover-opacity-off"
+           onclick="navigateToIframe('Rougarou.md'); openNav();">
+           Rougarou 
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-navigation">
+   <a class="prev" onclick="plusSlides(-1)">❮</a>
+   <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+</div>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+/* Move forward/backward */
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+/* Show specific slide */
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+/* Display slide */
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  /* Hide all slides */
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  /* Show current slide */
+  slides[slideIndex - 1].style.display = "block";
+}
+</script>
+
+<script>
+function navigateToIframe(page) {
+    const iframe = document.getElementById('contentFrame');
+    iframe.src = page;
+}
+function navigateTo(page) {
+    window.location.href = page + '.md';
+}
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+
+    document.querySelector(".github-logo").style.display = "none";
+    document.getElementById("theme-toggle").style.display = "none";
+    document.querySelector(".slide-navigation").style.display = "none";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+
+    document.querySelector(".github-logo").style.display = "inline-block";
+    document.getElementById("theme-toggle").style.display = "block";
+    document.querySelector(".slide-navigation").style.display = "flex";
+}
+</script>
+
+
+<script>
+  const themeToggle = document.getElementById("theme-toggle");
+  // Load the saved theme
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+    themeToggle.textContent = "☀️";
+    themeToggle.setAttribute("aria-label", "Switch to light mode");
+  } else {
+    document.body.classList.remove("dark-mode");
+    themeToggle.textContent = "🌙";
+    themeToggle.setAttribute("aria-label", "Switch to dark mode");
+  }
+
+  // Toggle and save the theme
+  themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      themeToggle.textContent = "☀️";
+      themeToggle.setAttribute("aria-label", "Switch to light mode");
+
+      // Save dark mode
+      localStorage.setItem("theme", "dark");
+    } else {
+      themeToggle.textContent = "🌙";
+      themeToggle.setAttribute("aria-label", "Switch to dark mode");
+
+      // Save light mode
+      localStorage.setItem("theme", "light");
+    }
+  });
+</script>
+
+
+
+
+
+</body>
+</html>
+
