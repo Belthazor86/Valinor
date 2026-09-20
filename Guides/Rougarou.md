@@ -4,14 +4,14 @@
 
 ---
 
-## Key Features
+**Key Features**
 
 * **100% Portable:** Runs directly without installation—perfect for USB drives and external storage.
 * **Organized Software Management:** Easily store, categorize, and launch portable apps from dedicated folders.
 
 ---
 
-## Instructions
+**Instructions**
 
 1. Add your portable applications into their respective folders inside the directory.
 2. Ensure all portable software packages are compressed in `.zip` format.
