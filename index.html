@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -153,45 +154,28 @@ img {vertical-align: middle;}
 }
 
 .github-logo img:hover {transform: scale(1.8);}
-
-.markdown-content {
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
-  padding: 80px 20px 30px 20px;
-  text-align: left;
-}
-
-.markdown-content img {
-  max-width: 100%;
-  height: auto;
-}
-
-.markdown-content pre {
-  overflow-x: auto;
-}
-
-.markdown-content code {
-  white-space: pre-wrap;
-}
 </style>
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
 
+
+
 <a href="https://github.com/Belthazor86/Valinor" target="_blank" class="github-logo">
 <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/3.jpg" alt="GitHub"></a>
+
 
 <button id="theme-toggle" aria-label="Toggle dark mode">
   🌙
 </button>
 
+
 <div id="myNav" class="overlay">
-<div id="contentFrame" class="markdown-content"></div>
+<iframe id="contentFrame" src="" frameborder="0" scrolling="auto"></iframe>	
 <button class="video-slider-btn closebtn" onclick="closeNav()">(🗙)</button>
 </div>
+
 
 <div class="slideshow-container">
 
@@ -199,38 +183,39 @@ img {vertical-align: middle;}
     <div class="slide-content">
       <h2 class="slide-title">Valinor</h2>
       <div class="logo">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/0.png" alt="Company Logo" width="10%">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/0.png" alt="Company Logo" width="10%">';
       </div>
       <div class="options">
         <a class="option demo w3-opacity w3-hover-opacity-off"
-           onclick="navigateToIframe('Mythodian.md');">
+           onclick="navigateToIframe('Mythodian.md'); openNav();">
           Mythodian
         </a>
         <a class="option demo w3-opacity w3-hover-opacity-off"
-           onclick="navigateToIframe('Symbiote.md');">
+           onclick="navigateToIframe('Symbiote.md'); openNav();">
           Symbiote
         </a>
         <a class="option demo w3-opacity w3-hover-opacity-off"
-           onclick="navigateToIframe('Balrog.md');">
+           onclick="navigateToIframe('Balrog.md'); openNav();">
           Balrog
         </a>
       </div>
     </div>
   </div>
 
+
   <div class="mySlides fade">
     <div class="slide-content">
       <h2 class="slide-title">Valinor</h2>
       <div class="logo">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/0.png" alt="Company Logo" width="10%">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="Logos/0.png" alt="Company Logo" width="10%">';
       </div>
       <div class="options">
         <a class="option demo w3-opacity w3-hover-opacity-off"
-           onclick="navigateToIframe('Absalom.md');">
+           onclick="navigateToIframe('Absalom.md'); openNav();">
           Absalom
         </a>
         <a class="option demo w3-opacity w3-hover-opacity-off"
-           onclick="navigateToIframe('Rougarou.md');">
+           onclick="navigateToIframe('Rougarou.md'); openNav();">
            Rougarou 
         </a>
       </div>
@@ -242,6 +227,7 @@ img {vertical-align: middle;}
    <a class="next" onclick="plusSlides(1)">❯</a>
   </div>
 </div>
+
 
 <script>
 let slideIndex = 1;
@@ -275,35 +261,16 @@ function showSlides(n) {
 </script>
 
 <script>
-const basePath = "./";
-
-async function navigateToIframe(page) {
-    const content = document.getElementById('contentFrame');
-    const fullPath = basePath + page;
-
-    content.innerHTML = "Loading...";
-    openNav();
-
-    try {
-        const response = await fetch(fullPath);
-        if (!response.ok) {
-            throw new Error(`Failed to load ${fullPath}`);
-        }
-
-        const markdown = await response.text();
-        content.innerHTML = marked.parse(markdown);
-    } catch (error) {
-        console.error(error);
-        content.innerHTML = `<p style="color:red;">Could not load ${fullPath}</p>`;
-    }
+function navigateToIframe(page) {
+    const iframe = document.getElementById('contentFrame');
+    iframe.src = page;
 }
-
 function navigateTo(page) {
     window.location.href = page + '.md';
 }
-
 function openNav() {
     document.getElementById("myNav").style.height = "100%";
+
     document.querySelector(".github-logo").style.display = "none";
     document.getElementById("theme-toggle").style.display = "none";
     document.querySelector(".slide-navigation").style.display = "none";
@@ -311,40 +278,53 @@ function openNav() {
 
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
+
     document.querySelector(".github-logo").style.display = "inline-block";
     document.getElementById("theme-toggle").style.display = "block";
     document.querySelector(".slide-navigation").style.display = "flex";
 }
 </script>
 
+
 <script>
-const themeToggle = document.getElementById("theme-toggle");
-const savedTheme = localStorage.getItem("theme");
+  const themeToggle = document.getElementById("theme-toggle");
+  // Load the saved theme
+  const savedTheme = localStorage.getItem("theme");
 
-if (savedTheme === "dark") {
-  document.body.classList.add("dark-mode");
-  themeToggle.textContent = "☀️";
-  themeToggle.setAttribute("aria-label", "Switch to light mode");
-} else {
-  document.body.classList.remove("dark-mode");
-  themeToggle.textContent = "🌙";
-  themeToggle.setAttribute("aria-label", "Switch to dark mode");
-}
-
-themeToggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark-mode");
-
-  if (document.body.classList.contains("dark-mode")) {
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
     themeToggle.textContent = "☀️";
     themeToggle.setAttribute("aria-label", "Switch to light mode");
-    localStorage.setItem("theme", "dark");
   } else {
+    document.body.classList.remove("dark-mode");
     themeToggle.textContent = "🌙";
     themeToggle.setAttribute("aria-label", "Switch to dark mode");
-    localStorage.setItem("theme", "light");
   }
-});
+
+  // Toggle and save the theme
+  themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+      themeToggle.textContent = "☀️";
+      themeToggle.setAttribute("aria-label", "Switch to light mode");
+
+      // Save dark mode
+      localStorage.setItem("theme", "dark");
+    } else {
+      themeToggle.textContent = "🌙";
+      themeToggle.setAttribute("aria-label", "Switch to dark mode");
+
+      // Save light mode
+      localStorage.setItem("theme", "light");
+    }
+  });
 </script>
+
+
+
+
 
 </body>
 </html>
+
