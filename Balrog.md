@@ -22,6 +22,9 @@ Balrog is a portable flash and HTML 5 player that is optimized to play swf and H
  
 ---
 
+**Download**
++ [Release](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
+
 ```mermaid
 graph TD
     Balrog["Balrog/"] --> folder1["Games/"]
@@ -47,9 +50,6 @@ graph TD
 
 
 ```
-
-[Download](https://github.com/Belthazor86/Valinor/releases/tag/Flash)
-
 ---
 
 > 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
