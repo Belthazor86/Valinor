@@ -1,4 +1,4 @@
-# **Mythodian (Basilisk + Elysium)**
+# **Mythodian (Basilisk + Elysium)**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 ---
 
@@ -36,13 +36,25 @@ Basilisk is a portable gaming browser specifically optimized for the Elysium web
 > 
 > 📝 **Usage:** Mythodian is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Mythodian please reach out politely in GitHub Discussions
+> 🆘 **Help:** If you have any issues with Mythodian please reach out politely in GitHub Discussions
 
 ---
 
+
+[Download](https://github.com/Belthazor86/Valinor/releases/tag/Website)
+
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases/tag/Website">⬇️ Download</a>
+   <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
 </p>
+
+
+
+
+
+
+
+
 
 

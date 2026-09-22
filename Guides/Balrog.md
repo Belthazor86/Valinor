@@ -1,4 +1,4 @@
-# **Balrog: The Portable Flash & HTML 5 Player**
+# **Balrog: The Portable Flash & HTML 5 Player**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Balrog is a portable flash and HTML 5 player that is optimized to play swf and HTML 5 games. 
 
@@ -56,15 +56,17 @@ graph TD
 > 
 > 📝 **Usage:** Balrog is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Balrog please reach out politely in GitHub Discussions
-
-
+> 🆘 **Help:** If you have any issues with Balrog please reach out politely in GitHub Discussions
 
 
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases/tag/Flash">⬇️ Download</a>
+  <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
 </p>
 
 
+
+### Support Future Releases
+If you find this application useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!
 

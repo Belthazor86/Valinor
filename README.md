@@ -1,4 +1,4 @@
-# **Valinor**
+# **Valinor**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Valinor is a centralized hub for discovering and managing portable gaming applications and web tools. 
 
@@ -20,4 +20,5 @@ Valinor is a centralized hub for discovering and managing portable gaming applic
 
 
 
-
+### Support Future Releases
+If you find any of these applications useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!

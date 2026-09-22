@@ -1,4 +1,4 @@
-# **Absalom: Emulation Made Portable**
+# **Absalom: Emulation Made Portable**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Absalom is a lightweight, portable ROM and emulator manager designed to launch games with compatible emulators seamlessly without requiring installation.
 
@@ -54,17 +54,20 @@ graph TD
 > 
 > 📝 **Usage:** Absalom is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Balrog please reach out politely in GitHub Discussions
+> 🆘 **Help:** If you have any issues with Balrog please reach out politely in GitHub Discussions
 
 ---
 
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases#release-Emulators">⬇️ Download</a>
+  <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
 </p>
 
 
 
 
+### Support Future Releases
+If you find this application useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!
 
 

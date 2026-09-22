@@ -1,4 +1,4 @@
-# **Symbiote: The Portable Gaming Launcher**
+# **Symbiote: A unified launcher for games, emulators, and tools**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Symbiote is a portable game launcher where gamers can organize their non-Steam games, emulators, and gaming tools. 
 
@@ -43,20 +43,23 @@ graph TD
 **Project Guidelines**
 
 
-> 🚀 **Continuous improvement :** An ongoing effort to enhance the Symbiote.
+> 🚀 **Continuous improvement :** An ongoing effort to enhance Symbiote.
 > 
 > 📝 **Usage:** Symbiote is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Symbiote please reach out politely in GitHub Discussions
+> 🆘 **Help:** If you have any issues with Symbiote please reach out politely in GitHub Discussions
 
 
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases/tag/Gaming">⬇️ Download</a>
+  <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
 </p>
 
 
 
 
+### Support Future Releases
+If you find this application useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!
 
 

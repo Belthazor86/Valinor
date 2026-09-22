@@ -1,4 +1,4 @@
-# **Rougarou: Archive & Launch Portable Apps**
+# **Rougarou: Archive & Launch Portable Apps**  [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Rougarou is a lightweight, portable application launcher designed to organize, archive, and run standalone tools seamlessly without requiring installation.
 
@@ -41,15 +41,16 @@ graph TD
 > 
 > 📝 **Usage:** Rougarou is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Balrog please reach out politely in GitHub Discussions
-
-
+> 🆘 **Help:** If you have any issues with Balrog please reach out politely in GitHub Discussions
 
 
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases#release-Software">⬇️ Download</a>
+  <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
 </p>
 
 
 
+### Support Future Releases
+If you find this application useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!
