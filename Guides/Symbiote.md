@@ -47,11 +47,12 @@ graph TD
 > 
 > 📝 **Usage:** Symbiote is for personal use only.
 >
-> 🆘 **Support:** If you have any issues with Symbiote please reach out politely in GitHub Discussions
+> 🆘 **Help:** If you have any issues with Symbiote please reach out politely in GitHub Discussions
 
 
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases/tag/Gaming">⬇️ Download</a>
+  <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
 </p>
 
