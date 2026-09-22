@@ -1,4 +1,4 @@
-# **Rougarou: Archive & Launch Portable Apps**
+# **Rougarou: Archive & Launch Portable Apps**  [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Rougarou is a lightweight, portable application launcher designed to organize, archive, and run standalone tools seamlessly without requiring installation.
 
