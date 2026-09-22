@@ -1,4 +1,4 @@
-# **Valinor**
+# **Valinor**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Valinor is a centralized hub for discovering and managing portable gaming applications and web tools. 
 
