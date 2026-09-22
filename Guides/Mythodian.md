@@ -40,6 +40,9 @@ Basilisk is a portable gaming browser specifically optimized for the Elysium web
 
 ---
 
+
+[Download](https://github.com/Belthazor86/Valinor/releases/tag/Website)
+
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases/tag/Website">⬇️ Download</a>
    <a href="https://github.com/sponsors/Belthazor86">💖 Support</a>
