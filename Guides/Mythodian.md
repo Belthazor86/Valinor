@@ -1,4 +1,4 @@
-# **Mythodian (Basilisk + Elysium)**
+# **Mythodian (Basilisk + Elysium)**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 ---
 
