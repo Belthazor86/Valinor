@@ -50,7 +50,7 @@ graph TD
 
 **Project Guidelines**
 
-> 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
+> 🚀 **Continuous improvement :** An ongoing effort to enhance Absalom.
 > 
 > 📝 **Usage:** Absalom is for personal use only.
 >
