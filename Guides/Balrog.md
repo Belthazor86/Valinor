@@ -1,4 +1,4 @@
-# **Balrog: The Portable Flash & HTML 5 Player**
+# **Balrog: The Portable Flash & HTML 5 Player**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Balrog is a portable flash and HTML 5 player that is optimized to play swf and HTML 5 games. 
 
