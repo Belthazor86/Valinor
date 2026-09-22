@@ -19,5 +19,6 @@ Valinor is a centralized hub for discovering and managing portable gaming applic
 
 
 
-
+### Support Future Releases
+If you find this application useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!
 
