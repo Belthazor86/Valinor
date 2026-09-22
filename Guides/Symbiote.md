@@ -1,4 +1,4 @@
-# **Symbiote: A unified launcher for games, emulators, and tools**
+# **Symbiote: A unified launcher for games, emulators, and tools**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Symbiote is a portable game launcher where gamers can organize their non-Steam games, emulators, and gaming tools. 
 
