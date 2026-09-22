@@ -44,8 +44,6 @@ graph TD
 > 🆘 **Support:** If you have any issues with Balrog please reach out politely in GitHub Discussions
 
 
-
-
 <p align="center">
   <a href="https://github.com/Belthazor86/Valinor/releases#release-Software">⬇️ Download</a>
   <a href="https://github.com/Belthazor86/Valinor/blob/main/README.md">🏠 Home</a>
@@ -53,3 +51,5 @@ graph TD
 
 
 
+### Support Future Releases
+If you find this application useful, please consider [sponsoring on GitHub](https://github.com/sponsors/Belthazor86) to support ongoing updates and maintenance!
