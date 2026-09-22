@@ -37,7 +37,7 @@ graph TD
 **Project Guidelines**
 
 
-> 🚀 **Continuous improvement :** An ongoing effort to enhance Balrog.
+> 🚀 **Continuous improvement :** An ongoing effort to enhance Rougarou.
 > 
 > 📝 **Usage:** Rougarou is for personal use only.
 >
