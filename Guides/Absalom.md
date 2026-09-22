@@ -1,4 +1,4 @@
-# **Absalom: Emulation Made Portable**
+# **Absalom: Emulation Made Portable**   [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa)](https://github.com/sponsors/Belthazor86)
 
 Absalom is a lightweight, portable ROM and emulator manager designed to launch games with compatible emulators seamlessly without requiring installation.
 
